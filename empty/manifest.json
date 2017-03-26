@@ -4,39 +4,11 @@
     "name": "Empty",
     "version": "1.0",    
     "icons": {
-            {
-    "manifest_version": 2,
- 
-    "name": "Empty",
-    "version": "1.0",    
-    "icons": {
             "16": "images/empty_16.png",
             "32": "images/empty_32.png",
             "48": "images/empty_48.png",
             "64": "images/empty_64.png",
             "128": "images/empty_128.png"
-    },
- 
-    "content_scripts": [
-        {
-            "matches": [ "https://*/","http://*/"],
-            "js": [ "content_scripts/end.js"],
-            "run_at": "document_end"
-        }
-    ],
-    "permissions": ["http://*/","https://*/"],
-    "browser_action": {
-          "default_icon": {
-            "16": "images/empty_16.png",
-            "32": "images/empty_32.png",
-            "48": "images/empty_48.png",
-            "64": "images/empty_64.png",
-            "128": "images/empty_128.png"
-          },
-          "default_title": "Empty",
-          "default_popup": "popup/popup.html"
-    }
-}
     },
  
     "content_scripts": [
